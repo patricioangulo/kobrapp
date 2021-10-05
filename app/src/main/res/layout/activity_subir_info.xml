@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actividades.SubirInfoActivity">
+
+    <EditText
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:id="@+id/et_titulo"
+        android:singleLine="false"
+        android:hint="@string/pon_el_nombre_de_tu_trabajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:id="@+id/et_descripcion"
+        android:hint="@string/pon_una_breve_descripci_n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:id="@+id/et_valor_hora"
+        android:hint="Pon el valor de tu hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:layout_margin="10dp"
+        android:id="@+id/et_horas"
+        android:hint="@string/pon_las_horas_de_ejecuci_n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:id="@+id/et_valor_materiales"
+        android:hint="@string/pon_el_valor_de_los_materiales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:layout_margin="10dp"
+        android:text="@string/guardar"
+        android:id="@+id/btn_subir_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
+</ScrollView>

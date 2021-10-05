@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.VerTrabajoActivity">
+
+
+    <TextView
+        android:text="@string/nombre_trabajo"
+        android:id="@+id/tv_nombre_trabajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="@string/descripci_n_del_trabajo"
+        android:id="@+id/tv_descripcion_trabajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="@string/precio_del_trabajo"
+        android:id="@+id/tv_precio_trabajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="@string/horas_que_necesitas_para_entregar_el_proyecto"
+        android:id="@+id/tv_horas_trabajadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="@string/valor_de_tu_hora"
+        android:id="@+id/tv_valor_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <ImageButton
+        android:src="@drawable/ic_borrar"
+        android:id="@+id/btn_borrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageButton>
+</LinearLayout>

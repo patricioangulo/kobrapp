@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itzdare.cobrapp">
+
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_kobrapp_512px"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cobrapp">
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <!--
+        This is the sample AdMob App ID. Insert your own AdMob App ID in quotes
+        https://googlemobileadssdk.page.link/admob-android-update-manifest
+        -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity android:name=".actividades.VerTrabajoActivity" />
+        <activity android:name=".actividades.SubirInfoActivity" />
+        <activity android:name=".actividades.ValorHoraActivity" />
+        <activity android:name=".actividades.ResultadoActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SpashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

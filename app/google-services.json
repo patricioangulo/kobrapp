@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1098265161552",
+    "project_id": "cobrapp-88f81",
+    "storage_bucket": "cobrapp-88f81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098265161552:android:1f74b993e7263847884655",
+        "android_client_info": {
+          "package_name": "com.itzdare.cobrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098265161552-a5omomhnhvlsd4mvaf1jidq6mioin7cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyTZbWjNAmpsMa2hoGdZMY1vC6e2ryxxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098265161552-a5omomhnhvlsd4mvaf1jidq6mioin7cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

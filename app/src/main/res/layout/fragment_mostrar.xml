@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.MostrarFragment">
+
+
+    <TextView
+        android:textSize="20dp"
+        android:text="@string/ap_yanos_con_un_minuto"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:text="@string/somos_un_peque_o_estudio_de_desarrolladores_y_tu_ayuda_es_muy_importante_para_nosotros"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:text="@string/puedes_apoyarnos_actualizando_a_la_versi_n_completa_o_haciendo_click_en_la_publiciddad_que_est_m_s_abajo"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:text="@string/muchas_gracias"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_pub1"
+        android:layout_gravity="center"
+        android:text="@string/publicidad_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/btn_pub2"
+        android:layout_gravity="center"
+        android:text="@string/publicidad_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/btn_pub3"
+        android:layout_gravity="center"
+        android:text="@string/publicidad_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>

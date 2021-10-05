@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Kobrapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="cu_nto_quieres_ganar_la_mes">Cuánto Ganas o Te Gustaría Ganar al Mes?</string>
+    <string name="c_mo_cobrar_tu_trabajo">¿Cómo Cobrar Tu Trabajo?</string>
+    <string name="horas_que_necesitas_para_entregar_el_proyecto">1. Horas que necesitas para entregar el proyecto</string>
+    <string name="cantidad_de_horas">Cantidad de Horas</string>
+    <string name="_500_lucas_1_mill_n_cu_nto">500 lucas, 1 millón? Cuánto?</string>
+    <string name="costo_aproximado_de_los_materiales">3. Costo Aproximado de los Materiales</string>
+    <string name="_100_lucas">100 lucas?</string>
+    <string name="calcular">Calcular</string>
+    <string name="no_funcion">No Funcionó</string>
+    <string name="cu_nto_cobras_por_hora">Cuánto cobras por hora?</string>
+    <string name="_10_000">$10.000?</string>
+    <string name="cuanto_cobras_por_hora_sino_lo_sabes_haz_click_en_el_bot_n_valor_de_tu_hora">2. Cuanto cobras por hora? sino lo sabes, haz click en el botón VALOR DE TU HORA</string>
+    <string name="valor_de_tu_hora">2. Valor de tu hora</string>
+    <string name="el_valor_de_tu_hora_es">El Valor de tu Hora es:</string>
+    <string name="datos_ingresado">Datos Ingresados</string>
+    <string name="valor_de_los_materiales">3. Valor de los Materiales</string>
+    <string name="puedes_cobrar_por_tu_trabajo">Puedes Cobrar Por Tu Trabajo</string>
+    <string name="nombre_trabajo">Nombre Trabajo</string>
+    <string name="precio_del_trabajo">Precio del Trabajo</string>
+    <string name="descripci_n_del_trabajo">Descripción del Trabajo</string>
+    <string name="agregar_trabajo">Agregar Trabajo</string>
+    <string name="pon_el_nombre_de_tu_trabajo">Pon el nombre de tu trabajo</string>
+    <string name="pon_una_breve_descripci_n">Pon una breve descripción</string>
+    <string name="pon_el_tiempo_de_ejecuci_n_de_tu_trabajo">Pon el tiempo de ejecución de tu trabajo</string>
+    <string name="pon_el_valor_de_los_materiales">Pon el valor de los materiales</string>
+    <string name="guardar">Guardar</string>
+    <string name="pon_las_horas_de_ejecuci_n">Pon las Horas de ejecución</string>
+    <string name="ap_yanos_con_un_minuto">Apóyanos con un minuto</string>
+    <string name="somos_un_peque_o_estudio_de_desarrolladores_y_tu_ayuda_es_muy_importante_para_nosotros">Somos un pequeño estudio de desarrolladores y tu ayuda es muy importante para nosotros.</string>
+    <string name="puedes_apoyarnos_actualizando_a_la_versi_n_completa_o_haciendo_click_en_la_publiciddad_que_est_m_s_abajo">Puedes apoyarnos actualizando a la versión completa o haciendo click en la publiciddad que está más abajo.</string>
+    <string name="muchas_gracias">Muchas Gracias!</string>
+    <string name="publicidad_1">Publicidad 1</string>
+    <string name="publicidad_2">Publicidad 2</string>
+    <string name="publicidad_3">Publicidad 3</string>
+    <string name="title_activity_pub1">MainActivity</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="level_text">Level %1$d</string>
+    <string name="valor_hora">Valor de tu hora</string>
+    <string name="el_valor_de_tu_hora_se_calcula_en_base_a_un_trabajo_de_45_horas_semanales">*El valor de tu hora se calcula en base a un trabajo de 45 horas semanales. Este valor no considera impuestos</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="existe_una_nueva_versi_n">Existe una nueva versión</string>
+    <string name="la_nueva_versi_n_es">la nueva versión es:</string>
+    <string name="versi_n">versión</string>
+    <string name="actualizar">actualizar</string>
+
+</resources>
